@@ -32,7 +32,7 @@ public:
 };
 int main()
 {
-    student s1, s2, s3, s4;
+    student s1, s2, s3, s4;  // s1,s2,s3,s4 are instance of student
     s1.set_student("anirudh", 101, 90);
     s2.set_student("raj", 102, 20);
     s3.set_student("sahaj", 103, 50);

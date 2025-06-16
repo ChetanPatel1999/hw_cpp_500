@@ -17,4 +17,4 @@ int main()
     }
     cout << "sum of array element : " << sum << endl;
     return 0;
-}
+}   
