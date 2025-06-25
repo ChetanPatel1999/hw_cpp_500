@@ -6,6 +6,7 @@ class emp
     float sal;
 
 public:
+    emp() {}
     emp(int a, float b) // constructor
     {
         id = a;
@@ -20,7 +21,7 @@ public:
 };
 int main()
 {
-    emp e1(101,12000), e2(102,50000);
+    emp e1(101, 12000), e2(102, 50000), e3;
     e1.get_emp();
     e2.get_emp();
     return 0;
