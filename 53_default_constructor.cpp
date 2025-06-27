@@ -6,12 +6,12 @@ class emp
     float sal;
 
 public:
-    void set_emp(int a, float b) //setter methode
+    emp(int a = 103, float b = 1000) // default constructor
     {
         id = a;
         sal = b;
     }
-    void get_emp() //getter method
+    void get_emp()
     {
         cout << "emp info----- " << endl;
         cout << "emp id : " << id << endl;
@@ -20,10 +20,9 @@ public:
 };
 int main()
 {
-    emp e1, e2, e3;
-    e1.set_emp(101, 12000);
-    e2.set_emp(102, 50000);
+    emp e1(101), e2(102, 1500), e3;
     e1.get_emp();
     e2.get_emp();
+    e3.get_emp();
     return 0;
 }
