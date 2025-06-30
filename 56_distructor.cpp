@@ -16,7 +16,7 @@ public:
         cout << "destructor is called" << endl;
     }
 };
-int main()
+int main()      
 {
     demo d1, d2;
     cout << "inside main function" << endl;
