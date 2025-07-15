@@ -39,4 +39,4 @@ int main()
     ptr = new derived(89, 99);
     ptr->display();
     return 0;
-}
+} 
